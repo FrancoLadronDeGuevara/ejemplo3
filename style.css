@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo-principal {
+  width: 126px;
+}
+
+#lista-nav {
+  display: flex;
+  gap: 8px;
+}
+
+#lista-nav li {
+  list-style: none;
+  color: #7a7a7a;
+}
+
+#boton-nav {
+  background-color: #ff7615;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+#boton-nav:hover {
+  background-color: #4a4a4a;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.link-nav:hover {
+  color: #ff7615;
+}
+
+#imagen-principal {
+  background-image: url("/estudiantes.jpg");
+  background-size: cover;
+  height: 600px;
+  background-attachment: fixed;
+}
+
+#boton-wsp {
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  position: fixed;
+}
